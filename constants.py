@@ -1,0 +1,3 @@
+BACKGROUND = "black"
+FOREGROUND = "white"
+FONT = 18
