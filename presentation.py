@@ -9,8 +9,11 @@ class Menu(object):
 
         w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
         #self.root.overrideredirect(1)
-        #self.root.geometry("%dx%d+0+0" % (w, h))
+        self.root.geometry(SIZE)
         #self.root.focus_set()
-        self.root.configure(background=BACKGROUND)
+        #self.root.configure(background='gray')
+
+        self.editor = Label(background=BACKGROUND, font=FONT, padx=1000, pady=1000)
+        self.editor.grid()
 
         self.root.mainloop()

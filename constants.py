@@ -1,3 +1,4 @@
 BACKGROUND = "black"
 FOREGROUND = "white"
 FONT = 18
+SIZE='400x600'
